@@ -1,0 +1,24 @@
+/* identicon css */
+
+.Figure .Identicon {
+  padding: 20px;
+  background: #F5F5F5;
+  text-align: center;
+}
+
+.Figure .Identicon img {
+  margin: 0 auto;
+  width: 80px;
+}
+
+.Figure {
+  margin: 0 20px 0 0;
+}
+
+.Figure > p {
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+}
